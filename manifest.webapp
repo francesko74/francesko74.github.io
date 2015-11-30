@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "Liberty",
+  "launch_path": "/index.html",
+  "description": "Liberty system",
+  "icons": {
+    "128": "img/liberty_128.png"
+  },
+  "developer": {
+    "name": "Vlad Fedorov",
+    "url": "http://ad-fr.ru"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  },
+  "locales": {
+    "en": {
+      "name": "Liberty",
+      "description": "Liberty"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Air Horner",
+  "short_name": "Air Horner",
+  "icons": [{
+        "src": "img/liberty_128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      }, {
+        "src": "img/liberty_152.png",
+        "type": "image/png",
+        "sizes": "152x152"
+      }, {
+        "src": "img/liberty_144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      }, {
+        "src": "img/liberty_192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "img/liberty_256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "img/liberty_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1B2024",
+  "theme_color": "#1B2024"
+}
