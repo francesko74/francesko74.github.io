@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Liberty</title>
+    <link rel=manifest href=manifest.json>
+    <meta name=mobile-web-app-capable content=yes>
+    <meta name=application-name content="Air Horner">
+    <link rel=icon sizes=192x192 href=/images/touch/Airhorner_192.png>
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <meta name=apple-mobile-web-app-title content="Air Horner">
+    <link rel=apple-touch-icon href=/images/touch/Airhorner_192.png>
+    <meta name=msapplication-TileImage content=/images/touch/Airhorner_144.png>
+    <meta name=msapplication-TileColor content=#2196F3>
+    <meta name=theme-color content=#2196F3>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="authorization-page">
+    <!-- <a href="/" class="back-to-site">Вернуться на сайт</a> -->
+    <div class="logo-container">
+        <a href="#!/">
+            <img src="img/liberty.png" height="19" width="117" alt="Liberty" class="logo">
+        </a>
+        <p class="description">Салон красоты</p>
+    </div>
+    <div id="authorization-start" class="authorization">
+        <div class="authorization-form">
+            <h1>Добро пожаловать в Liberty system</h1>
+            <p class="description">Введите логин и пароль для начала работы:</p>
+            <div class="form">
+                <label>Логин<input type="text" placeholder="+7 905 659 15 32"></label>
+                <label>Пароль<input type="password" placeholder="*********"></label>
+                <input type="button" class="button radius enter" value="Войти в систему">
+                <a href="#!/sms" class="fogot">Забыли пароль?</a>
+            </div>
+        </div>
+    </div>
+    <div id="authorization-sms" class="authorization" style="display: none;">
+        <div class="authorization-form">
+            <h1>Востановление пароля по SMS</h1>
+            <p class="description">В течении 5 минут вам придет SMS сообщение с одноразовым паролем</p>
+            <div class="form">
+                <label>Введите номер телефона<input type="text" placeholder="+7 905 659 15 32"></label>
+                <input type="button" class="button radius transparent" value="Отправить">
+            </div>
+        </div>
+    </div>
+    <div id="authorization-smsCode" class="authorization" style="display: none;">
+        <div class="authorization-form">
+            <h1>Востановление пароля по SMS</h1>
+            <p class="description"></p>
+            <div class="form">
+                <label>Введите код из SMS<input type="text" placeholder="*********"></label>
+                <input type="button" class="button radius transparent" value="Отправить">
+            </div>
+        </div>
+    </div>
+    <div id="authorization-new" class="authorization" style="display: none;">
+        <div class="authorization-form">
+            <h1>Регистрация нового пароля</h1>
+            <p class="description">В течении 5 минут вам придет SMS сообщение с одноразовым паролем</p>
+            <div class="form">
+                <label>Введите новый пароль<input type="password" placeholder="*********"></label>
+                <label>Повторите новый пароль<input type="password" placeholder="*********"></label>
+                <input type="button" class="button radius transparent" value="Отправить">
+            </div>
+        </div>
+    </div>
+    <p class="phone">
+        Телефон для справок +7 (800) 789 56 32
+    </p>
+</body>
+</html>
